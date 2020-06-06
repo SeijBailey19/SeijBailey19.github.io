@@ -1,0 +1,151 @@
+/* Global */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+}
+
+/* Header */
+
+header nav{
+    display: grid;
+    grid-template-columns: 45% 35% 20%;
+    box-shadow: 2px 1px 10px 1px hsl(0, 0%, 75%);
+
+    font-size: 18px;
+}
+
+header nav span{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+/*Social Media Icons*/
+
+.icons li i{
+    font-size: 1em;
+    padding: 5px;
+}
+
+i.fa-google{
+    background-color: hsl(5, 64%, 53%);
+    color: white;
+}
+
+i.fa-twitter{
+    background-color: hsl(197, 100%, 47%);
+    color: white;
+    /* border-radius: 5px; */
+}
+ 
+i.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, hsl(43, 100%, 75%) 0%, hsl(35, 97%, 63%) 5%, hsl(20, 92%, 59%) 40%, hsl(11, 90%, 61%) 45%, hsl(0, 98%, 55%) 50%, hsl(340, 75%, 54%) 56%, hsl(326, 57%, 48%) 62%, hsl(276, 51%, 47%) 70%, hsl(243, 63%, 58%) 75%, hsl(230, 77%, 58%) 90%);
+    color: white;
+    /* border-radius: 5px; */
+}
+
+i.fa-linkedin{
+    background-color: hsl(199, 85%, 36%);
+    color: white;
+    /* border-radius: 5px; */
+}
+
+header nav a{
+    color: hsl(0, 0%, 80%);
+    padding: .5em;
+}
+
+a.current{   
+    color: black;
+}
+
+a:hover{
+    font-weight: 500;
+    color: hsl(28, 80%, 60%);
+}
+
+/* Section */
+
+#gridMe{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 1rem;
+    grid-gap: 2.5em;
+   }
+
+ a{
+     color: hsl(0, 0%, 0%);
+ }
+
+
+ a.card{
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 2px 1px 10px 1px hsl(0, 0%, 75%);
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    
+    transition: all .2s ease-in-out;
+}
+
+a.card:hover{
+    transform: scale(1.03);
+}
+
+a > div{
+    padding: 1em;
+}
+
+a.card > div > p{
+    font-size: 1.4em;
+}
+
+.image-one, 
+.image-two, 
+.image-three, 
+.image-four{
+    height: 250px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image-one{
+    background: url('../images/Screenshot\ \(62\).png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+}
+
+.image-two{
+    background: url('../images/Darkness\ 01.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.image-three{
+    background: url('../images/Vaughnaz\ Music.JPEG') no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+}
+.image-four{
+    background: url('../images/Custom\ UX\ Logo.png') no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+}

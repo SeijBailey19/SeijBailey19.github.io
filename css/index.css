@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    background-color: hsl(0, 0%, 100%);
+    /* overflow: hidden; */
+}
+
+/* Header Section */
+
+
+header nav{
+    display: grid;
+    grid-template-columns: 45% 35% 20%;
+    box-shadow: 2px 1px 10px 1px hsl(0, 0%, 75%);
+
+    font-size: 18px;
+}
+
+header nav span{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
+/*Social Media Icons*/
+
+.icons li i{
+    font-size: 1em;
+    padding: 5px;
+}
+
+i.fa-google{
+    background-color: hsl(5, 64%, 53%);
+    color: white;
+}
+
+i.fa-twitter{
+    background-color: hsl(197, 100%, 47%);
+    color: white;
+    /* border-radius: 5px; */
+}
+ 
+i.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, hsl(43, 100%, 75%) 0%, hsl(35, 97%, 63%) 5%, hsl(20, 92%, 59%) 40%, hsl(11, 90%, 61%) 45%, hsl(0, 98%, 55%) 50%, hsl(340, 75%, 54%) 56%, hsl(326, 57%, 48%) 62%, hsl(276, 51%, 47%) 70%, hsl(243, 63%, 58%) 75%, hsl(230, 77%, 58%) 90%);
+    color: white;
+    /* border-radius: 5px; */
+}
+
+i.fa-linkedin{
+    background-color: hsl(199, 85%, 36%);
+    color: white;
+    /* border-radius: 5px; */
+}
+
+header nav a{
+    color: hsl(0, 0%, 80%);
+    padding: .5em;
+}
+
+a.current{   
+    color: black;
+}
+
+a:hover{
+    font-weight: 500;
+    color: hsl(28, 80%, 60%);
+}
+
+
+/* Content Section */
+
+#gridMe{
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-template-rows: 500px;
+ grid-gap: 3em;
+}
+
+section{
+    height: 100vh;
+}
+
+section > div{
+    margin: 20px;
+    padding: 20px;
+    
+    height: 100%;
+
+    /* background-color: white; */
+    border-radius: 10px;
+}
+
+
+div.pic{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 20px;
+    box-shadow: 2px 1px 10px 1px hsl(0, 0%, 75%);
+}
+
+div > a{
+    font-size: 1.7em;
+    color: hsl(0, 0%, 70%);
+}
+
+div.text{
+    /* background-color: white; */
+    margin-right: 20%;
+    height: fit-content;
+    width: auto;
+    /* box-shadow: 2px 1px 10px 1px hsl(0, 0%, 75%); */
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 500;
+    text-indent: 1em;
+    padding: 15px 0px 15px 0px;
+}
+
+p{
+    font-size: 1.5em;
+    padding-top: 1em;
+}
+
+/* Footer Section */
+footer{
+    position: absolute;
+    bottom: 2;
+    height: 150px;
+    width: 100vw;
+
+    background-color: aquamarine;
+}
