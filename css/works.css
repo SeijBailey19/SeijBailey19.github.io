@@ -149,3 +149,46 @@ a.card > div > p{
     background-position: center;
     background-color: black;
 }
+
+
+@media (max-width: 1360px){
+    header nav{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        box-shadow: 2px 1px 10px 1px hsl(0, 0%, 75%); 
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1150px){
+    /* Section */
+    #gridMe{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 1rem;
+        grid-gap: 2.5em;
+       }
+
+    /* Nav */
+}
+
+@media (max-width: 620px) {
+    /* Section */
+    #gridMe{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding: 1rem;
+        grid-gap: 2.5em;
+       }
+
+    /* Nav */
+    header nav{
+        display: grid;
+        grid-template-columns: 80% 20%;
+        box-shadow: 2px 1px 10px 1px hsl(0, 0%, 75%);
+    
+        font-size: 18px;
+    }
+}
