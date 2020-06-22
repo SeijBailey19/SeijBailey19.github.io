@@ -143,20 +143,13 @@ a.card > div > p{
     background-position: center;
     background-color: black;
 }
-
-.image-four{
-    background: url('../images/Custom\ UX\ Logo.png') no-repeat;
-    background-size: contain;
-    background-position: center;
-    background-color: black;
-}
-
 .image-four{
     background: url('../images/NRF-Sign.jpg') no-repeat;
     background-size: contain;
     background-position: center;
     background-color: black;
 }
+
 
 @media (max-width: 1360px){
     header nav{
