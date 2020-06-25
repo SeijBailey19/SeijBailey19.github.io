@@ -118,7 +118,8 @@ a.card > div > p{
 .image-one, 
 .image-two, 
 .image-three, 
-.image-four{
+.image-four, 
+.image-five{
     height: 250px;
     width: 100%;
     border-radius: 5px;
